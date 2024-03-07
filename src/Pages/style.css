@@ -1,0 +1,12 @@
+.btn-col-robot{
+    background-color: #FA4B37;
+    color: black;
+}
+
+.btn-col-robot:hover{
+    background-color: rgb(227, 58, 58);
+}
+
+.bot-img{
+    width: 100%;
+}
