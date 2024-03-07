@@ -2,7 +2,7 @@ pipeline {
     agent any
     stage("checkout"){
         steps{
-            checkout sum
+            git 'https://github.com/ramjig666/camera.git'
         }
     }
 
