@@ -17,6 +17,7 @@ pipeline {
         stage("Build Image"){
         steps{
             sh 'sudo docker build -t robot .'
+            sh 'sudo docker run -it --name camera robot /bin/bash'
         }
     }
 }
