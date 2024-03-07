@@ -12,12 +12,6 @@ pipeline {
             sh 'sudo apt install npm -y'
         }
     }
-
-    stage('start'){
-        steps{
-            sh 'npm start'
-        }
-    }
 }
 }
 
