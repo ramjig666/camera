@@ -3,7 +3,7 @@ pipeline {
     stages {
     stage('checkout'){
         steps{
-            git 'https://github.com/ramjig666/camera.git'
+            checkout scm
     }
 
     stage('Test'){
