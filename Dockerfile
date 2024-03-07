@@ -1,5 +1,5 @@
 FROM node:latest
 WORKDIR /apps
 ADD . .
-RUN npm install
+RUN sudo npm install
 CMD [ "npm" "start" ]
