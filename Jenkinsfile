@@ -15,7 +15,7 @@ pipeline {
 
     stage('start'){
         steps{
-            sh 'npm react-scripts start'
+            sh 'npm run-scripts start'
         }
     }
 }
